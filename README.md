@@ -90,6 +90,45 @@ Bottom|`1`|
 <img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/c646c3d2-acb1-4e00-86da-f2f07a2ed387"/>
 
 ***
+## External Indication Standard
+Color-coded pulsating lights, these indicators are used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a ship, or to discern the location of an airlock.
+
+Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified pership. Subwrights are required to disclose all modifications of the **EIS** to the submarine crew to avoid confusion.
+***
+### Hazards
+#### Electrical Discharge Coil Indicator
+*Used as a hazard indicator for the Electrical Discharge Coil.*
+RGBA|Range|Pulse Amount|Pulse Frequency
+-|-|-|-
+`255 255 0 127`|`256`|`0.75`|`0.1`
+#### Engine Propeller Indicator
+*Used as a hazard indicator for the Engine Propeller.*
+RGBA|Range|Pulse Amount|Pulse Frequency
+-|-|-|-
+`255 127 0 127`|`256`|`0.75`|`0.1`
+#### Depth Charge Tube Indicator
+*Used as a hazard indicator for the Depth Charge Tube.*
+RGBA|Range|Pulse Amount|Pulse Frequency
+-|-|-|-
+`127 255 0 127`|`256`|`0.75`|`0.1`
+***
+### Notices
+#### Docking Port Indicator
+*Used to indicate the location of a Docking Port.*
+RGBA|Range|Pulse Amount|Pulse Frequency
+-|-|-|-
+`0 255 255 127`|`128`|`0.5`|`0.2`
+#### Airlock Indicator
+*Used to indicate the location of an Airlock.*
+RGBA|Range|Blink Frequency
+-|-|-
+`0 255 255 127`|`128`|`0.8`
+#### Airdock Indicator
+*Used to indicate the location of an Airdock.*
+RGBA|Range|Pulse Amount|Pulse Frequency
+-|-|-|-
+`0 255 255 127`|`128`|`0.5`|`0.2`
+***
 ## Credits
 By: ***Friedrich Nietzsche***
 
