@@ -93,7 +93,7 @@ Bottom|`1`|
 ## Credits
 By: ***Friedrich Nietzsche***
 
-Notable Persons:  
+### Notable Persons:  
 *Anonority*  
 *Azekill_DIABLO*  
 *Clavicus*  
