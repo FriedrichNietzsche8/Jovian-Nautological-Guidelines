@@ -20,7 +20,7 @@ Submersible|`63`|`128`
 
 Amount|Location
 -|-
-1|Top of the Ship, between the Starboard and Aft
+1|Top of the Ship, between the Aft and Starboard
 
 #### Example
 <img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/c96c1fdc-51df-464d-a351-767445a99506"/>
@@ -38,12 +38,6 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`128`
 Submersible|`63`|`64`
-
-Size|Top Bow|Top Aft|Bottom Bow|Bottom Aft
--|-|-|-|-|
-Large Ship|`3`|`3`|`2`|`2`
-Medium Ship|`2`|`2`|`1`|`1`
-Small Ship|`1`|`1`|`1`|`1`
 
 Large Ship|Aft|Bow
 -|-|-
