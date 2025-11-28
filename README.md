@@ -122,12 +122,12 @@ RGBA|Range|Pulse Amount|Pulse Frequency
 *Used to indicate the location of an Airlock.*
 RGBA|Range|Blink Frequency
 -|-|-
-`0 255 255 127`|`128`|`0.8`
+`0 127 255 127`|`128`|`0.8`
 #### Airdock Indicator
 *Used to indicate the location of an Airdock.*
 RGBA|Range|Pulse Amount|Pulse Frequency
 -|-|-|-
-`0 255 255 127`|`128`|`0.5`|`0.2`
+`0 255 127 127`|`128`|`0.5`|`0.2`
 ***
 ## Credits
 By: ***Friedrich Nietzsche***
