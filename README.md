@@ -1,6 +1,7 @@
 # Jovian Nautological Guidelines
 ## Signal Communication Standard
 Modified COLREGS (*International Regulations for Preventing Collisions at Sea*) to better fit Europan ships, these signals are used to discern the type and movement of a ship to avoid collision with other ships.
+***
 ### Identification Signal
 *Used to identify the type of the ship.*
 #### Required
@@ -20,6 +21,11 @@ Submersible|`63`|`128`
 Amount|Location
 -|-
 1|Top of the Ship, between the Starboard and Aft
+
+#### Example
+<img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/c96c1fdc-51df-464d-a351-767445a99506"/>
+
+***
 ### Location Signals
 *Used to discern the location of the bow and aft.*
 #### Required
@@ -53,6 +59,11 @@ Small Ship|Aft|Bow
 -|-|-
 Top|`1`|`1`|
 Bottom|`1`|`1`|
+
+#### Example
+<img width="512" height="256" alt="LS" src="https://github.com/user-attachments/assets/9fcfc73f-4548-47c4-bf53-c9b3fa28da60"/>
+
+***
 ### Condition Signals
 *Used to discern the movement of the ship.*
 #### Required
@@ -80,6 +91,11 @@ Small & Medium Ship|Starboard
 -|-
 Top|`1`
 Bottom|`1`|
+
+#### Example
+<img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/c646c3d2-acb1-4e00-86da-f2f07a2ed387"/>
+
+***
 ## Credits
 By: ***Friedrich Nietzsche***
 
