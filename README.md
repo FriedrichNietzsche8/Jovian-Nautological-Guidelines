@@ -1,6 +1,6 @@
 # Jovian Nautological Guidelines
 ## Signal Communication Standard
-Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a ship to avoid collision with other ships.
+Inspired by Earth's Collision Regulations ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a ship to avoid collision with other ships.
 ***
 ### Identification Signal
 *Used to identify the type of the ship.*
