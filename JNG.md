@@ -16,6 +16,7 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
+
 Amount|Location
 -|-
 1|Top of the Ship, between the Starboard and Aft
@@ -31,19 +32,23 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`128`
 Submersible|`63`|`64`
+
 Size|Top Bow|Top Aft|Bottom Bow|Bottom Aft
 -|-|-|-|-|
 Large Ship|`3`|`3`|`2`|`2`
 Medium Ship|`2`|`2`|`1`|`1`
 Small Ship|`1`|`1`|`1`|`1`
+
 Large Ship|Aft|Bow
 -|-|-
 Top|`3`|`3`|
 Bottom|`2`|`2`|
+
 Medium Ship|Aft|Bow
 -|-|-
 Top|`2`|`2`|
 Bottom|`1`|`1`|
+
 Small Ship|Aft|Bow
 -|-|-
 Top|`1`|`1`|
@@ -54,6 +59,7 @@ Bottom|`1`|`1`|
 RGB
 -|
 `255 255 255`
+
 Condition|Top Light|Bottom Light
 -|-|-
 Stationary|✓|✓
@@ -64,10 +70,12 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
+
 Large Ship|Starboard
 -|-
 Top|`2`
 Bottom|`2`|
+
 Small & Medium Ship|Starboard
 -|-
 Top|`1`
