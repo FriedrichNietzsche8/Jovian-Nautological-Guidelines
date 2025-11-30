@@ -1,9 +1,9 @@
 # Jovian Nautological Guidelines
 ## Signal Communication Standard
-Inspired by Earth's Collision Regulations ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a ship to avoid collision with other ships.
+Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a ship to avoid collision with other ships.
 ***
 ### Identification Signal
-*Used to identify the type of the ship.*
+*Used to identify the type of the ship. Usually located at the top, between the aft and starboard.*
 #### Required
 Type|RGB
 -|-
@@ -17,10 +17,6 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
-
-Amount|Location
--|-
-1|Top of the Ship, between the Aft and Starboard
 
 #### Example
 <img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/c96c1fdc-51df-464d-a351-767445a99506"/>
