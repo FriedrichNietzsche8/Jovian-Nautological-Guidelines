@@ -59,11 +59,11 @@ RGB
 -|
 `255 255 255`
 
-Condition|Top Light|Bottom Light
+Movement|Top Signal|Bottom Signal
 -|-|-
 Stationary|✓|✓
-Forwards|✓|✗
-Backwards|✗|✓
+Forward|✓|✗
+Backward|✗|✓
 #### Recommended
 Ship|Alpha|Range
 -|-|-
