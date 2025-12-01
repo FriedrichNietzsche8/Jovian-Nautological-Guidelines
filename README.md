@@ -88,14 +88,17 @@ Color-coded pulsating lights, these indicators are used to assist the diving cre
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified pership. Subwrights are required to disclose all modifications of the **EIS** to the submarine crew to avoid confusion.
 ***
-Indicator|RGBA|Range|Blink Frequency|Pulse Amount|Pulse Frequency|Airlock Open|Airlock Closed
--|-|-|-|-|-|-|-
-Electrical Discharge Coil|`255 255 0 127`|`256`|✗|`0.75`|`0.1`|✓|✗
-Engine Propeller|`255 127 0 127`|`256`|✗|`0.75`|`0.1`|✓|✗
-Depth Charge Tube|`127 255 0 127`|`256`|✗|`0.75`|`0.1`|✓|✗
-Docking Port|`0 255 255 127`|`128`|✗|`0.5`|`0.2`|✓|✓
-Airlock|`0 127 255 127`|`128`|`0.8`|✗|✗|✓|✗
-Airdock|`0 255 127 127`|`128`|✗|`0.5`|`0.2`|✓|✓
+Indicator|RGBA|Range|Blink Frequency|Pulse Amount|Pulse Frequency|Airlock Closed
+-|-|-|-|-|-|-
+Electrical Discharge Coil|`255 255 0 127`|`256`|-|`0.75`|`0.1`|✗
+Engine Propeller|`255 127 0 127`|`256`|-|`0.75`|`0.1`|✗
+Depth Charge Tube|`127 255 0 127`|`256`|-|`0.75`|`0.1`|✗
+Docking Port|`0 255 255 127`|`128`|-|`0.5`|`0.2`|✓
+Airlock|`0 127 255 127`|`128`|`0.8`|-|-|✗
+Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|✓
+#### Example
+<img width="512" height="256" alt="EIS" src="https://github.com/user-attachments/assets/1f9e4288-2788-4cf3-9973-e9625eb331cd"/>
+
 ### Hazards
 #### Electrical Discharge Coil Indicator
 *Used as a hazard indicator for the Electrical Discharge Coil.*
