@@ -19,7 +19,7 @@ Submarine|`127`|`256`
 Submersible|`63`|`128`
 
 #### Example
-<img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/c96c1fdc-51df-464d-a351-767445a99506"/>
+<img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/76a7a972-4ccb-4192-be9b-bb04590f544a"/>
 
 ***
 ### Location Signals
@@ -51,7 +51,7 @@ Top|`1`|`1`|
 Bottom|`1`|`1`|
 
 #### Example
-<img width="512" height="256" alt="LS" src="https://github.com/user-attachments/assets/9fcfc73f-4548-47c4-bf53-c9b3fa28da60"/>
+<img width="512" height="256" alt="LS" src="https://github.com/user-attachments/assets/f40cfce5-0e41-48e7-bd16-2557b0e23477"/>
 
 ***
 ### Condition Signals
@@ -83,13 +83,21 @@ Top|`1`
 Bottom|`1`|
 
 #### Example
-<img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/c646c3d2-acb1-4e00-86da-f2f07a2ed387"/>
+<img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/2c902f05-44c4-43ba-85e9-0ad474407a7e"/>
 
 ***
 ## External Indication Standard
 Color-coded pulsating lights, these indicators are used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a ship, or to discern the location of an airlock.
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified pership. Subwrights are required to disclose all modifications of the **EIS** to the submarine crew to avoid confusion.
+Indicator|Airlock Open|Airlock Closed
+-|-|-
+Electrical Discharge Coil|✓|✗
+Engine Propeller|✓|✗
+Depth Charge Tube|✓|✗
+Docking Port|✓|✓
+Airlock|✓|✗
+Airdock|✓|✓
 ***
 ### Hazards
 #### Electrical Discharge Coil Indicator
