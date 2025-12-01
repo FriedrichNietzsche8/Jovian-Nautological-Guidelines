@@ -17,7 +17,6 @@ Ship|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
-
 #### Example
 <img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/76a7a972-4ccb-4192-be9b-bb04590f544a"/>
 
@@ -49,7 +48,6 @@ Small Ship|Aft|Bow
 -|-|-
 Top|`1`|`1`|
 Bottom|`1`|`1`|
-
 #### Example
 <img width="512" height="256" alt="LS" src="https://github.com/user-attachments/assets/f40cfce5-0e41-48e7-bd16-2557b0e23477"/>
 
@@ -81,7 +79,6 @@ Small & Medium Ship|Starboard
 -|-
 Top|`1`
 Bottom|`1`|
-
 #### Example
 <img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/2c902f05-44c4-43ba-85e9-0ad474407a7e"/>
 
@@ -115,6 +112,9 @@ RGBA|Range|Pulse Amount|Pulse Frequency
 RGBA|Range|Pulse Amount|Pulse Frequency
 -|-|-|-
 `127 255 0 127`|`256`|`0.75`|`0.1`
+#### Example
+<img width="512" height="256" alt="H" src="https://github.com/user-attachments/assets/38c52ca3-3a65-44ee-a42d-0b93d72d90d9"/>
+
 ***
 ### Notices
 #### Docking Port Indicator
@@ -132,6 +132,9 @@ RGBA|Range|Blink Frequency
 RGBA|Range|Pulse Amount|Pulse Frequency
 -|-|-|-
 `0 255 127 127`|`128`|`0.5`|`0.2`
+#### Example
+<img width="512" height="256" alt="N" src="https://github.com/user-attachments/assets/344edce2-d15a-4abe-a05d-c1d97a2cec6e"/>
+
 ***
 ## Credits
 By: ***Friedrich Nietzsche***
