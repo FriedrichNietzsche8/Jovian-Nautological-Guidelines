@@ -100,6 +100,9 @@ Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|On
 <img width="512" height="256" alt="EIS" src="https://github.com/user-attachments/assets/1f9e4288-2788-4cf3-9973-e9625eb331cd"/>
 
 ***
+## Internal Indication Standard (WIP)
+Color-coded alarms.
+***
 ## Credits
 By: ***Friedrich Nietzsche***
 
