@@ -103,6 +103,13 @@ Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|On
 ## Internal Indication Standard (WIP)
 Color-coded alarms.
 ***
+Alarm|RGB
+-|-
+Meltdown|`255 0 0`
+Fire|`255 255 0`
+Flood|`0 0 255`
+Oxygen|`0 255 255`
+***
 ## Credits
 By: ***Friedrich Nietzsche***
 
