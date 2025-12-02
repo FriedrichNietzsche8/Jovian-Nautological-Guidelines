@@ -102,17 +102,17 @@ Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|✓
 ### Hazards
 #### Electrical Discharge Coil Indicator
 *Used as a hazard indicator for the Electrical Discharge Coil.*
-RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
+RGBA|Range|Pulse A|Pulse F|On when Airlock Closed
 -|-|-|-|-
 `255 255 0 127`|`256`|`0.75`|`0.1`|✗
 #### Engine Propeller Indicator
 *Used as a hazard indicator for the Engine Propeller.*
-RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
+RGBA|Range|Pulse A|Pulse F|On when Airlock Closed
 -|-|-|-|-
 `255 127 0 127`|`256`|`0.75`|`0.1`|✗
 #### Depth Charge Tube Indicator
 *Used as a hazard indicator for the Depth Charge Tube.*
-RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
+RGBA|Range|Pulse A|Pulse F|On when Airlock Closed
 -|-|-|-|-
 `127 255 0 127`|`256`|`0.75`|`0.1`|✗
 #### Example
@@ -122,17 +122,17 @@ RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
 ### Notices
 #### Docking Port Indicator
 *Used to indicate the location of a Docking Port.*
-RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
+RGBA|Range|Pulse A|Pulse F|On when Airlock Closed
 -|-|-|-|-
 `0 255 255 127`|`128`|`0.5`|`0.2`|✓
 #### Airlock Indicator
 *Used to indicate the location of an Airlock.*
-RGBA|Range|Blink F|Active when Airlock Closed
+RGBA|Range|Blink F|On when Airlock Closed
 -|-|-|-
 `0 127 255 127`|`128`|`0.8`|✗
 #### Airdock Indicator
 *Used to indicate the location of an Airdock.*
-RGBA|Range|Pulse A|Pulse F|Active when Airlock Closed
+RGBA|Range|Pulse A|Pulse F|On when Airlock Closed
 -|-|-|-|-
 `0 255 127 127`|`128`|`0.5`|`0.2`|✓
 #### Example
