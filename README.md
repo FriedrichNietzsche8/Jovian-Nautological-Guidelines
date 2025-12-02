@@ -24,7 +24,7 @@ Submersible|`63`|`128`
 ### Location Signals
 *Used to discern the location of the bow and aft.*
 #### Required
-Location|RGB|Blink Frequency
+Location|RGB|Blink F
 -|-|-
 Bow|`0 255 0`|`0.2`
 Aft|`255 0 0`|`0.2`
@@ -88,7 +88,7 @@ Color-coded pulsating lights, these indicators are used to assist the diving cre
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified pership. Subwrights are required to disclose all modifications of the **EIS** to the submarine crew to avoid confusion.
 ***
-Indicator|RGBA|Range|Blink Frequency|Pulse Amount|Pulse Frequency|Airlock Closed
+Indicator|RGBA|Range|Blink F|Pulse A|Pulse F|Airlock Closed
 -|-|-|-|-|-|-
 Electrical Discharge Coil|`255 255 0 127`|`256`|-|`0.75`|`0.1`|✗
 Engine Propeller|`255 127 0 127`|`256`|-|`0.75`|`0.1`|✗
@@ -102,17 +102,17 @@ Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|✓
 ### Hazards
 #### Electrical Discharge Coil Indicator
 *Used as a hazard indicator for the Electrical Discharge Coil.*
-RGBA|Range|Pulse Amount|Pulse Frequency
+RGBA|Range|Pulse A|Pulse F
 -|-|-|-
 `255 255 0 127`|`256`|`0.75`|`0.1`
 #### Engine Propeller Indicator
 *Used as a hazard indicator for the Engine Propeller.*
-RGBA|Range|Pulse Amount|Pulse Frequency
+RGBA|Range|Pulse A|Pulse F
 -|-|-|-
 `255 127 0 127`|`256`|`0.75`|`0.1`
 #### Depth Charge Tube Indicator
 *Used as a hazard indicator for the Depth Charge Tube.*
-RGBA|Range|Pulse Amount|Pulse Frequency
+RGBA|Range|Pulse A|Pulse F
 -|-|-|-
 `127 255 0 127`|`256`|`0.75`|`0.1`
 #### Example
@@ -122,17 +122,17 @@ RGBA|Range|Pulse Amount|Pulse Frequency
 ### Notices
 #### Docking Port Indicator
 *Used to indicate the location of a Docking Port.*
-RGBA|Range|Pulse Amount|Pulse Frequency
+RGBA|Range|Pulse A|Pulse F
 -|-|-|-
 `0 255 255 127`|`128`|`0.5`|`0.2`
 #### Airlock Indicator
 *Used to indicate the location of an Airlock.*
-RGBA|Range|Blink Frequency
+RGBA|Range|Blink F
 -|-|-
 `0 127 255 127`|`128`|`0.8`
 #### Airdock Indicator
 *Used to indicate the location of an Airdock.*
-RGBA|Range|Pulse Amount|Pulse Frequency
+RGBA|Range|Pulse A|Pulse F
 -|-|-|-
 `0 255 127 127`|`128`|`0.5`|`0.2`
 #### Example
