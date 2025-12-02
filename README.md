@@ -1,9 +1,9 @@
 # Jovian Nautological Guidelines
 ## Signal Communication Standard
-Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a ship to avoid collision with other ships.
+Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a sub to avoid collision with other subs.
 ***
 ### Identification Signal
-*Used to identify the type of the ship. Usually located at the top, between the aft and starboard.*
+*Used to identify the type of the sub. Usually located at the top, between the aft and starboard.*
 #### Required
 Type|RGB
 -|-
@@ -13,7 +13,7 @@ Scout|`0 0 255`
 Shuttle|`0 255 255`
 Drone|`255 255 0`
 #### Recommended
-Ship|Alpha|Range
+Sub|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
@@ -29,22 +29,22 @@ Location|RGB|Blink F
 Bow|`0 255 0`|`0.2`
 Aft|`255 0 0`|`0.2`
 #### Recommended
-Ship|Alpha|Range
+Sub|Alpha|Range
 -|-|-
 Submarine|`127`|`128`
 Submersible|`63`|`64`
 
-Large Ship|Aft|Bow
+Large Sub|Aft|Bow
 -|-|-
 Top|`3`|`3`|
 Bottom|`2`|`2`|
 
-Medium Ship|Aft|Bow
+Medium Sub|Aft|Bow
 -|-|-
 Top|`2`|`2`|
 Bottom|`1`|`1`|
 
-Small Ship|Aft|Bow
+Small Sub|Aft|Bow
 -|-|-
 Top|`1`|`1`|
 Bottom|`1`|`1`|
@@ -53,7 +53,7 @@ Bottom|`1`|`1`|
 
 ***
 ### Condition Signals
-*Used to discern the movement of the ship.*
+*Used to discern the movement of the sub.*
 #### Required
 RGB
 -|
@@ -65,17 +65,17 @@ Stationary|✓|✓
 Forward|✓|✗
 Backward|✗|✓
 #### Recommended
-Ship|Alpha|Range
+Sub|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
 
-Large Ship|Starboard
+Large Sub|Starboard
 -|-
 Top|`2`
 Bottom|`2`|
 
-Small & Medium Ship|Starboard
+Small & Medium Sub|Starboard
 -|-
 Top|`1`
 Bottom|`1`|
@@ -84,9 +84,9 @@ Bottom|`1`|
 
 ***
 ## External Indication Standard (WIP)
-Color-coded pulsating lights, these indicators are used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a ship, or to discern the location of an airlock.
+Color-coded pulsating lights, these indicators are used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a sub, or to discern the location of an airlock.
 
-Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified pership. Subwrights are required to disclose all modifications of the **EIS** to the submarine crew to avoid confusion.
+Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
 ***
 Indicator|RGBA|Range|Blink F|Pulse A|Pulse F|Airlock Closed
 -|-|-|-|-|-|-
