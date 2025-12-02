@@ -88,7 +88,7 @@ Color-coded pulsating lights, these indicators are used to assist the diving cre
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
 ***
-Indicator|RGBA|Range|Blink F|Pulse A|Pulse F|Airlock Closed
+Indicator|RGBA|Range|Blink F|Pulse A|Pulse F|On - Airlock Closed
 -|-|-|-|-|-|-
 Electrical Discharge Coil|`255 255 0 127`|`256`|-|`0.75`|`0.1`|✗
 Engine Propeller|`255 127 0 127`|`256`|-|`0.75`|`0.1`|✗
