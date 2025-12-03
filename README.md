@@ -83,7 +83,7 @@ Bottom|`1`|
 <img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/2c902f05-44c4-43ba-85e9-0ad474407a7e"/>
 
 ***
-## External Indication Standard
+## External Indication Standard (WIP)
 Color-coded pulsating indicators used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a sub, or to discern the location of an airlock.
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
@@ -98,6 +98,46 @@ Airlock|`0 127 255 127`|`128`|`0.8`|-|-|Off
 Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|On
 #### Example
 <img width="512" height="256" alt="EIS" src="https://github.com/user-attachments/assets/1f9e4288-2788-4cf3-9973-e9625eb331cd"/>
+
+***
+### Hazards
+#### Electrical Discharge Coil Indicator
+*Used as a hazard indicator for the Electrical Discharge Coil.*
+RGBA|Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-|-
+`255 255 0 127`|`256`|`0.75`|`0.1`|Off
+#### Engine Propeller Indicator
+*Used as a hazard indicator for the Engine Propeller.*
+RGBA|Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-|-
+`255 127 0 127`|`256`|`0.75`|`0.1`|Off
+#### Depth Charge Tube Indicator
+*Used as a hazard indicator for the Depth Charge Tube.*
+RGBA|Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-|-
+`127 255 0 127`|`256`|`0.75`|`0.1`|Off
+#### Example
+<img width="512" height="256" alt="H" src="https://github.com/user-attachments/assets/38c52ca3-3a65-44ee-a42d-0b93d72d90d9"/>
+
+***
+### Notices
+#### Docking Port Indicator
+*Used to indicate the location of a Docking Port.*
+RGBA|Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-|-
+`0 255 255 127`|`128`|`0.5`|`0.2`|On
+#### Airlock Indicator
+*Used to indicate the location of an Airlock.*
+RGBA|Range|Blink F|Closed Airlock
+-|-|-|-
+`0 127 255 127`|`128`|`0.8`|Off
+#### Airdock Indicator
+*Used to indicate the location of an Airdock.*
+RGBA|Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-|-
+`0 255 127 127`|`128`|`0.5`|`0.2`|On
+#### Example
+<img width="512" height="256" alt="N" src="https://github.com/user-attachments/assets/344edce2-d15a-4abe-a05d-c1d97a2cec6e"/>
 
 ***
 ## Internal Indication Standard (WIP)
