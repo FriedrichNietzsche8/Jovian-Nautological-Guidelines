@@ -143,12 +143,22 @@ RGBA|Range|Pulse A|Pulse F|Closed Airlock
 ## Internal Indication Standard (WIP)
 Color-coded alarms.
 ***
-Alarm|RGBA
+Alarm|RGB
 -|-
-Meltdown|`255 0 0 127`
-Fire|`255 255 0 127`
-Flood|`0 0 255 127`
-Oxygen|`0 255 255 127`
+Meltdown|`255 0 0`
+Fire|`255 255 0`
+Flood|`0 0 255`
+Oxygen|`0 255 255`
+EDC|`255 127 0`
+
+Notifier|RGB
+-|-
+Battery|`0 255 0`
+Airlock|`0 127 255`
+
+Alpha
+-|
+`127`
 ***
 ## Credits
 By: ***Friedrich Nietzsche***
