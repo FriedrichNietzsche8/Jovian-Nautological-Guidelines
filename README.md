@@ -36,18 +36,18 @@ Submersible|`63`|`64`
 
 Large Sub|Aft|Bow
 -|-|-
-Top|`3`|`3`|
-Bottom|`2`|`2`|
+Top|3|3|
+Bottom|2|2|
 
 Medium Sub|Aft|Bow
 -|-|-
-Top|`2`|`2`|
-Bottom|`1`|`1`|
+Top|2|2|
+Bottom|1|1|
 
 Small Sub|Aft|Bow
 -|-|-
-Top|`1`|`1`|
-Bottom|`1`|`1`|
+Top|1|1|
+Bottom|1|1|
 #### Example
 <img width="512" height="256" alt="LS" src="https://github.com/user-attachments/assets/f40cfce5-0e41-48e7-bd16-2557b0e23477"/>
 
@@ -72,13 +72,13 @@ Submersible|`63`|`128`
 
 Large Sub|Starboard
 -|-
-Top|`2`
-Bottom|`2`|
+Top|2
+Bottom|2
 
 Small & Medium Sub|Starboard
 -|-
-Top|`1`
-Bottom|`1`|
+Top|1
+Bottom|1
 #### Example
 <img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/2c902f05-44c4-43ba-85e9-0ad474407a7e"/>
 
@@ -116,7 +116,7 @@ Alpha|Range
 -|-
 `127`|`128`
 #### Docking Port Indicator
-*Used to indicate the location of a Docking Port.*
+*Used to indicate the location of a Docking Port. The indicators turn off once docked.*
 ##### Undocked
 RGB|Pulse A|Pulse F|Closed Airlock
 -|-|-|-
@@ -125,10 +125,6 @@ RGB|Pulse A|Pulse F|Closed Airlock
 RGB|Blink F
 -|-
 `0 255 0`|`1.0`
-##### Docked
-Activity
--|
-Off
 #### Airlock Indicator
 *Used to indicate the location of an Airlock.*
 RGB|Blink F|Closed Airlock
