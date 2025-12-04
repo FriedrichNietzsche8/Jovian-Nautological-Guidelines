@@ -3,7 +3,7 @@
 Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a sub to avoid collision with other subs.
 ***
 ### Identification Signal
-*Used to identify the type of the sub. Usually located at the top, between the aft and starboard.*
+*Used to identify the type of the sub.*
 #### Required
 Type|RGB
 -|-
@@ -17,6 +17,10 @@ Sub|Alpha|Range
 -|-|-
 Submarine|`127`|`256`
 Submersible|`63`|`128`
+
+Location
+-|
+Top, between the Aft and Starboard
 #### Example
 <img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/76a7a972-4ccb-4192-be9b-bb04590f544a"/>
 
