@@ -88,18 +88,6 @@ Color-coded pulsating indicators used to assist the diving crew as a warning for
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
 ***
-Indicator|RGBA|Range|Blink F|Pulse A|Pulse F|Closed Airlock
--|-|-|-|-|-|-
-Electrical Discharge Coil|`255 255 0 127`|`256`|-|`0.75`|`0.1`|Off
-Engine Propeller|`255 127 0 127`|`256`|-|`0.75`|`0.1`|Off
-Depth Charge Tube|`127 255 0 127`|`256`|-|`0.75`|`0.1`|Off
-Docking Port|`0 255 255 127`|`128`|-|`0.5`|`0.2`|On
-Airlock|`0 127 255 127`|`128`|`0.8`|-|-|Off
-Airdock|`0 255 127 127`|`128`|-|`0.5`|`0.2`|On
-#### Example
-<img width="512" height="256" alt="EIS" src="https://github.com/user-attachments/assets/1f9e4288-2788-4cf3-9973-e9625eb331cd"/>
-
-***
 ### Hazards
 Alpha|Range|Pulse A|Pulse F|Closed Airlock
 -|-|-|-|-
@@ -129,9 +117,18 @@ Alpha|Range
 `127`|`128`
 #### Docking Port Indicator
 *Used to indicate the location of a Docking Port.*
+##### Undocked
 RGB|Pulse A|Pulse F|Closed Airlock
 -|-|-|-
 `0 255 255`|`0.5`|`0.2`|On
+##### Proximity
+RGB|Blink F
+-|-
+`0 255 0`|`1.0`
+##### Docked
+Activity
+-|
+Off
 #### Airlock Indicator
 *Used to indicate the location of an Airlock.*
 RGB|Blink F|Closed Airlock
