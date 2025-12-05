@@ -16,9 +16,9 @@ Sub|Alpha|Range
 Submarine|`127`|`256`
 Submersible|`63`|`128`
 
-Location
--|
-Top, between the Aft and Starboard
+Amount|Location
+-|-
+1|Top, between the Aft and Starboard
 ### Example
 <img width="512" height="256" alt="IS" src="https://github.com/user-attachments/assets/76a7a972-4ccb-4192-be9b-bb04590f544a"/>
 
