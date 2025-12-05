@@ -25,10 +25,14 @@ Amount|Location
 ## Location Signals
 *Used to discern the location of the bow and aft.*
 ### Required
-Location|RGB|Blink F
--|-|-
-Bow|`0 255 0`|`0.2`
-Aft|`255 0 0`|`0.2`
+Blink F
+-|
+`0.2`
+
+Location|RGB
+-|-
+Bow|`0 255 0`
+Aft|`255 0 0`
 ### Recommended
 Sub|Alpha|Range
 -|-|-
@@ -113,15 +117,12 @@ Alpha|Range
 -|-
 `127`|`128`
 ### Docking Port Indicator
-*Used to indicate the location of a Docking Port. The indicators turn off once docked.*
-#### Undocked
-RGB|Pulse A|Pulse F|Closed Airlock
--|-|-|-
-`0 255 255`|`0.5`|`0.2`|On
-#### Proximity
-RGB|Blink F
--|-
-`0 255 0`|`1.0`
+*Used to indicate the location of a Docking Port.*
+State|RGB|Blink F|Pulse A|Pulse F|Activity|Closed Airlock
+-|-|-|-|-|-|-
+Undocked|`0 255 255`|-|`0.5`|`0.2`|On|On
+Proximity|`0 255 0`|`1.0`|-|-|On|On
+Docked|-|-|-|-|Off|-
 ### Airlock Indicator
 *Used to indicate the location of an Airlock.*
 RGB|Blink F|Closed Airlock
@@ -129,14 +130,20 @@ RGB|Blink F|Closed Airlock
 `0 127 255`|`0.8`|Off
 ### Airdock Indicator
 *Used to indicate the location of an Airdock.*
-RGB|Pulse A|Pulse F|Closed Airlock
--|-|-|-
-`0 255 127`|`0.5`|`0.2`|On
+State|RGB|Blink F|Pulse A|Pulse F|Activity|Closed Airlock
+-|-|-|-|-|-|-
+Undocked|`0 255 127`|-|`0.5`|`0.2`|On|On
+Proximity|`0 255 0`|`1.0`|-|-|On|On
+Docked|-|-|-|-|Off|-
 ### Example
 <img width="512" height="256" alt="N" src="https://github.com/user-attachments/assets/344edce2-d15a-4abe-a05d-c1d97a2cec6e"/>
 
 # Internal Indication Standard (WIP)
 Color-coded alarms.
+Alpha
+-|
+`127`
+
 Alarm|RGB
 -|-
 Meltdown|`255 0 0`
@@ -149,10 +156,6 @@ Notifier|RGB
 -|-
 Battery|`0 255 0`
 Airlock|`0 127 255`
-
-Alpha
--|
-`127`
 # Credits
 By: ***Friedrich Nietzsche***
 
