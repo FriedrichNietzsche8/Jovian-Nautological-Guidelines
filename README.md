@@ -90,10 +90,13 @@ Bottom|1
 Color-coded pulsating indicators used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a sub, or to discern the location of an airlock.
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
+Alpha
+-|
+`127`
 ## Hazards
-Alpha|Range|Pulse A|Pulse F|Closed Airlock
--|-|-|-|-
-`127`|`256`|`0.75`|`0.1`|Off
+Range|Pulse A|Pulse F|Closed Airlock
+-|-|-|-
+`256`|`0.75`|`0.1`|Off
 ### Electrical Discharge Coil Indicator
 *Used as a hazard indicator for the Electrical Discharge Coil.*
 RGB
@@ -113,9 +116,9 @@ RGB
 <img width="512" height="256" alt="H" src="https://github.com/user-attachments/assets/38c52ca3-3a65-44ee-a42d-0b93d72d90d9"/>
 
 ## Notices
-Alpha|Range
--|-
-`127`|`128`
+Range
+-|
+`128`
 ### Docking Port Indicator
 *Used to indicate the location of a Docking Port.*
 State|RGB|Blink F|Pulse A|Pulse F|Activity|Closed Airlock
