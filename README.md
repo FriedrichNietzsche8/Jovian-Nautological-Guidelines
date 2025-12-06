@@ -155,9 +155,14 @@ Flood|`0 0 255`
 Oxygen|`0 255 255`
 EDC|`255 127 0`
 
+Battery|RGB
+-|-
+0-10%|`255 0 0`
+11-50%|`255 255 0`
+51-100%|`0 255 0`
+
 Notifier|RGB
 -|-
-Battery|`0 255 0`
 Airlock|`0 127 255`
 # Credits
 By: ***Friedrich Nietzsche***
