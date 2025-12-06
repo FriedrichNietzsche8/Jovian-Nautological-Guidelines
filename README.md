@@ -143,10 +143,6 @@ Docked|-|-|-|-|Off|-
 
 # Internal Indication Standard (WIP)
 Color-coded alarms.
-Alpha
--|
-`127`
-
 Alarm|RGB
 -|-
 Meltdown|`255 0 0`
