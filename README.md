@@ -160,6 +160,11 @@ Battery|RGB
 Notifier|RGB
 -|-
 Airlock|`0 127 255`
+
+Valve|RGB
+-|-
+On|`0 255 0`
+Off|`255 0 0`
 # Credits
 By: ***Friedrich Nietzsche***
 
