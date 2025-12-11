@@ -1,4 +1,4 @@
-<img width="3305" height="830" alt="image" src="https://github.com/user-attachments/assets/d706e2f3-bf70-4964-8443-d68f4cba6e93" />
+<img width="3305" height="830" alt="JNG Full Emblem" src="https://github.com/user-attachments/assets/883a7b48-fa4f-4678-b1e6-7aa708a2425e" />
 
 # Signal Communication Standard
 Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a sub to avoid collision with other subs.
