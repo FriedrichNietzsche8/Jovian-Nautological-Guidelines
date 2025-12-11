@@ -145,28 +145,28 @@ Docked|-|-|-|-|Off|-
 
 # Internal Indication Standard (WIP)
 Color-coded alarms.
-Alarm|RGB
--|-
-Meltdown|`255 0 0`
-Fire|`255 255 0`
-Flood|`0 0 255`
-Oxygen|`0 255 255`
-EDC|`255 127 0`
+Alarm|RGBA|Range|Blink F
+-|-|-|-
+Meltdown|`255 0 0 127`|`64`|`2.5`
+Fire|`255 255 0 127`|`64`|`2.5`
+Flood|`0 0 255 127`|`64`|`2.5`
+Oxygen|`0 255 255 127`|`64`|`2.5`
+EDC|`0 127 255 127`|`64`|`2.5`
 
-Battery|RGB
--|-
-0-10%|`255 0 0`
-11-50%|`255 255 0`
-51-100%|`0 255 0`
+Battery|RGBA|Range
+-|-|-
+0-10%|`255 0 0 127`|`32`
+11-50%|`255 255 0 127`|`32`
+51-100%|`0 255 0 127`|`32`
 
-Notifier|RGB
--|-
-Airlock|`0 127 255`
+Notifier|RGBA|Range|Blink F
+-|-|-|-
+Airlock|`0 127 255 127`|`32`|`0.5`
 
-Valve|RGB
--|-
-On|`0 255 0`
-Off|`255 0 0`
+Valve|RGBA|Range|Blink F|Pulse A|Pulse F
+-|-|-|-|-|-
+On|`0 255 0 191`|`32`|-|`0.20`|`0.5`
+Off|`255 0 0 191`|`32`|`1.0`|-|-
 # Credits
 By: ***Friedrich Nietzsche***
 
