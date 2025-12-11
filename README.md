@@ -1,4 +1,4 @@
-<img width="3305" height="830" alt="JNG Full Emblem" src="https://github.com/user-attachments/assets/883a7b48-fa4f-4678-b1e6-7aa708a2425e" />
+<img width="3305" height="830" alt="JNG Full Emblem" src="https://github.com/user-attachments/assets/883a7b48-fa4f-4678-b1e6-7aa708a2425e"/>
 
 # Signal Communication Standard
 Inspired by Earth's COLREGs ([International Regulations for Preventing Collisions at Sea](https://en.wikipedia.org/wiki/International_Regulations_for_Preventing_Collisions_at_Sea)), these signals are used to discern the type and movement of a sub to avoid collision with other subs.
@@ -175,3 +175,11 @@ By: ***Friedrich Nietzsche***
 *Azekill_DIABLO*  
 *Clavicus*  
 *GM6*
+
+If you make a sub complying with the JNG, feel free to add this image to your workshop item using this code
+
+<img width="373" height="84" alt="JNG Compliant S" src="https://github.com/user-attachments/assets/d8b6bc42-ee94-463e-b4de-f55ad1c6d060"/>
+
+```
+[url=https://github.com/FriedrichNietzsche8/Jovian-Nautological-Guidelines]
+[img]https://i.imgur.com/jamXYD0.png[/img][/url]
