@@ -176,10 +176,9 @@ By: ***Friedrich Nietzsche***
 *Clavicus*  
 *GM6*
 
-If you make a sub complying with the JNG, feel free to add this image to your workshop item using this code
-
 <img width="373" height="84" alt="JNG Compliant S" src="https://github.com/user-attachments/assets/d8b6bc42-ee94-463e-b4de-f55ad1c6d060"/>
 
+*If you make a sub that complies with the JNG, feel free to add this image to your workshop item using the code below:*
 ```
 [url=https://github.com/FriedrichNietzsche8/Jovian-Nautological-Guidelines]
 [img]https://i.imgur.com/jamXYD0.png[/img][/url]
