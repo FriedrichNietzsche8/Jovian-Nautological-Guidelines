@@ -175,7 +175,7 @@ By: ***Friedrich Nietzsche***
 *Azekill_DIABLO*  
 *Clavicus*  
 *GM6*
-
+***
 <img width="373" height="84" alt="JNG Compliant S" src="https://github.com/user-attachments/assets/d8b6bc42-ee94-463e-b4de-f55ad1c6d060"/>
 
 *If you make a sub that complies with the JNG, feel free to add this image to your workshop item using the code below:*
