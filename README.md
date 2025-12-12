@@ -162,22 +162,22 @@ Alpha|Range
 -|-
 `127`|`32`
 
+Notifier|RGB|Blink F
+-|-|-
+Airlock|`0 127 255`|`0.5`
+DP|`0 0 255`|-
+
 Battery|RGB
 -|-
 0-10%|`255 0 0`
 11-50%|`255 255 0`
 51-100%|`0 255 0`
-
-Notifier|RGB|Blink F
--|-|-
-Airlock|`0 127 255`|`0.5`
-DP|`0 0 255`|-
 ## Valve
 Alpha|Range
 -|-
 `191`|`32`
 
-State|RGB|Blink F|Pulse A|Pulse F
+Activity|RGB|Blink F|Pulse A|Pulse F
 -|-|-|-|-
 On|`0 255 0`|-|`0.20`|`0.5`
 Off|`255 0 0`|`1.0`|-|-
