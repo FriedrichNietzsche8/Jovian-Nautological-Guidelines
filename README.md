@@ -89,7 +89,7 @@ Bottom|1
 <img width="512" height="256" alt="CS" src="https://github.com/user-attachments/assets/2c902f05-44c4-43ba-85e9-0ad474407a7e"/>
 
 # External Indication Standard
-Color-coded pulsating indicators used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a sub, or to discern the location of an airlock.
+Color-coded pulsating external indicators used to assist the diving crew as a warning for hazards such as the dangerous machinery and weaponry of a sub, or to discern the location of an airlock.
 
 Unlike the **SCS**, the restrictions of the **EIS** are more relaxed and can be fully modified persub. Subwrights are required to disclose all modifications of the **EIS** to the sub's crew to avoid confusion.
 Alpha
@@ -144,7 +144,7 @@ Docked|-|-|-|-|Off|-
 <img width="512" height="256" alt="N" src="https://github.com/user-attachments/assets/344edce2-d15a-4abe-a05d-c1d97a2cec6e"/>
 
 # Internal Indication Standard (WIP)
-Color-coded alarms.
+Color-coded internal indicators.
 Alarm|RGBA|Range|Blink F
 -|-|-|-
 Meltdown|`255 0 0 127`|`64`|`2.5`
