@@ -162,7 +162,7 @@ Alpha|Range
 -|-
 `127`|`32`
 
-Notifier|RGB|Blink F
+Type|RGB|Blink F
 -|-|-
 Airlock|`0 127 255`|`0.5`
 DP|`0 0 255`|-
