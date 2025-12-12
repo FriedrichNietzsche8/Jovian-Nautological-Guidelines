@@ -145,31 +145,44 @@ Docked|-|-|-|-|Off|-
 
 # Internal Indication Standard (WIP)
 Color-coded internal indicators.
-Alarm|RGBA|Range|Blink F
--|-|-|-
-Meltdown|`255 0 0 127`|`64`|`2.5`
-Fire|`255 255 0 127`|`64`|`2.5`
-Flood|`0 0 255 127`|`64`|`2.5`
-Oxygen|`0 255 255 127`|`64`|`2.5`
-EDC|`0 127 255 127`|`64`|`2.5`
-
-Battery|RGBA|Range
+## Alarms
+Alpha|Range|Blink F
 -|-|-
-0-10%|`255 0 0 127`|`32`
-11-50%|`255 255 0 127`|`32`
-51-100%|`0 255 0 127`|`32`
+`127`|`64`|`2.5`
 
-Notifier|RGBA|Range|Blink F
--|-|-|-
-Airlock|`0 127 255 127`|`32`|`0.5`
+Type|RGB
+-|-
+Meltdown|`255 0 0`
+Fire|`255 255 0`
+Flood|`0 0 255`
+Oxygen|`0 255 255`
+EDC|`0 127 255`
+## Notifiers
+Alpha|Range
+-|-
+`127`|`32`
 
-Valve|RGBA|Range|Blink F|Pulse A|Pulse F
--|-|-|-|-|-
-On|`0 255 0 191`|`32`|-|`0.20`|`0.5`
-Off|`255 0 0 191`|`32`|`1.0`|-|-
+Battery|RGB
+-|-
+0-10%|`255 0 0`
+11-50%|`255 255 0`
+51-100%|`0 255 0`
+
+Notifier|RGB|Blink F
+-|-|-
+Airlock|`0 127 255`|`0.5`
+DP|`0 0 255`|-
+## Valve
+Alpha|Range
+-|-
+`191`|`32`
+
+State|RGB|Blink F|Pulse A|Pulse F
+-|-|-|-|-
+On|`0 255 0`|-|`0.20`|`0.5`
+Off|`255 0 0`|`1.0`|-|-
 # Credits
 By: ***Friedrich Nietzsche***
-
 ## Notable Persons:  
 *Anonority*  
 *Azekill_DIABLO*  
